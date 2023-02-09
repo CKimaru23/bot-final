@@ -34,8 +34,8 @@ const App = () => {
   };
 
   const handleReleaseBot = (id) => {
-    console.log(selectedBots.filter((bot) => bot.id !== id));
-    console.log(`${id} deleted`)
+    setBots(selectedBots.filter((bot) => bot.id !== id));
+    // console.log(`${id} deleted`)
     
     
   };
